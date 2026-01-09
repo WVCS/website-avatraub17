@@ -1,15 +1,19 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title> Ava's Website </title>
-<link href="style.css" rel="stylesheet" type="text/css">
-</head>
+@charset "utf-8";
 
-<body>
-	<center> 
-	<h3> Ava's Amazing Website </h3>
-	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ltPUBIEGSAT2RAPrik1unCnZ3Ed-GaQVu84TGRZiNEjEYLg6:https://www.iroamly.com/images/best-beaches-in-the-us-cover.webp&s">
-	</center>
-</body>
-</html>
+body {
+	background-color: aqua;
+}
+img {
+	width: 50%;
+}
+img:hover {
+	border: dotted navy 10px;
+	border-radius: 100%
+}
+
+h3 {
+  letter-spacing: -2px;
+	text-shadow: 2px 2px 5px navy;
+	color: antiquewhite;
+	text-decoration : wavy underline;
+}
